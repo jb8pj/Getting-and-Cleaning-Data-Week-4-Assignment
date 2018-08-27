@@ -2,12 +2,12 @@ library (dplyr)
 
 ##Reading data
 
-# Read training data
+## Read training data
 X_train <- read.table("./UCI HAR Dataset/train/X_train.txt")
 Y_train <- read.table("./UCI HAR Dataset/train/Y_train.txt")
 Sub_train <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 
-#Read test data
+##Read test data
 X_test <- read.table("./UCI HAR Dataset/test/X_test.txt")
 Y_test <- read.table("./UCI HAR Dataset/test/Y_test.txt")
 Sub_test <- read.table("./UCI HAR Dataset/test/subject_test.txt")
